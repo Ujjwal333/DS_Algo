@@ -48,5 +48,10 @@ int main()
     fill(vp.begin(),vp.end(),value);
     print(vp);
     
+    //copying a vector
+    vector<int> vq={1,2,3,4,5};
+    vector<int> vqa=vq;
+    print(vqa);
+    
     return 0;
 }
