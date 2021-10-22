@@ -42,10 +42,6 @@ void insert_end(int val){
 }
 
 void delete_beg(){
-    if(head==NULL)
-    {
-        return 
-    }
     Node *ptr=head;
     head=ptr->next;
     ptr->next=NULL;
